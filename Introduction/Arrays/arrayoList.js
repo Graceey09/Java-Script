@@ -57,11 +57,11 @@ let myList = {
 };
 
 console.log("List to Array:", listToArray(list));
-console.log("List after Prepending 0:", JSON.stringify(prepend(0, list), null, 2));
-console.log("Element at position 2 (zero-based index):", nth(list, 2));
+console.log("List after Prepending 0:"prepend(0, list), null, 2);
+console.log("Element at position 2:", nth(list, 2));
 console.log("Element at position 2 using recursive nth:", nthRecursive(list, 2));
 
-console.log(JSON.stringify(list, null, 2));
+console.log(list, null, 2);
 
 
 
